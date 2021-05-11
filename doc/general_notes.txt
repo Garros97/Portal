@@ -1,0 +1,54 @@
+* cannot_reset_password ist ein Tag (da zu selten benutzt)
+* sex nicht, da es für jeden Benutzer gültig ist
+* Passwörter werden mit bcrypt gehashed
+* min_group_size = max_group_size = 0 ==> keine Gruppenanmeldung
+* Imply_courses wird für Kurse als Tag umgesetzt
+* Der Upload-Krams für die Kurse wird nicht mit Tags umgesetzt, weil er dann aus mehr als einem Tag bestehen würde. Das kann inkonsistent werden.
+* Dateiformate für Berichte?
+* Nur Gruppenprojekte können bewertet werden, brauchen wir momentan nichts anderes.
+* Wenn Mail-Adresse schon vergeben, fragen, ob er nicht schon einen Account hat
+* Registration ist kein HABTM-Table, sondern ein Model, weil daran noch andere Sachen hängen, und die ID auf keinen Fall verloren gehen sollte.
+
+"User stories"
+--------------
+Will sich für Projekt Anmelden
+	
+	Hast du schon einen Account? Nein. Account-Daten abfragen, nächste Seite Projekt-Daten abfragen. Bekommt eine (!) Mail
+	mit Anmeldebestätigung, Bestätigungslink und Accountdaten, mit Hinweis, dass er den Account mehrfach benutzen kann.
+	
+	Hast du schon einen Account? Ja. Login, Projekt-Daten, bekommt nur Mail mit Anmelddebestätigung
+
+Default tags:
+	cannot_reset_password -> Benutzer
+	forced -> Kurse
+	hidden -> Kurse
+	qisid_[0-9]+ -> Kurse
+	conflicts_with_[a-zA-Z0-9]+ -> Kurse
+
+Besonders wichtige Funktionen (aus Umfrage)
+-------------------------------------------
+* Das komplette Frontend (klar)
+* Statistiken
+* Benutzerstammdaten
+* Schnellsuche
+* Hilfe-Funktion :(
+* Kurslisten ansehen
+* "Anmelden als Benutzer"
+* Löschen von Sachen
+
+Eher unwichtige Funktionen (aus Umfrage)
+----------------------------------------
+Das was hier steht, muss eventuell nicht (sofort) in die GUI
+* Benutzergruppen-Editor (s.u.)
+* Benutzer in andere Gruppe verschieben (s.u.)
+* QIS-Import
+* Formeln in Skalen (völlig unbekannt)
+
+Unklares aus Umfrage
+--------------------
+* Benutzergruppen-Editor (benutzt keiner, wird aber als sehr wichtig empfunden)
+* Benutzer in andere Gruppe verschieben (dito)
+* Fahrkostenanträgen (dito, kann eig. keiner brauchen)
+* Neuanmeldung scheint oft genutzt werden, evtl. in normales register mit login=admin integrieren?
+
+Generell: Die letzen Fragen enthalten sehr viele interessante Antworten!!

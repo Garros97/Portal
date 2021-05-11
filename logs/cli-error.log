@@ -1,0 +1,2099 @@
+2018-02-13 17:49:25 Error: [Error] Call to a member function getOptionParser() on null in /opt/chell/src/Shell/ChellShell.php on line 25
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(458): App\Shell\ChellShell->getOptionParser()
+#1 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#2 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#3 {main}
+
+
+2018-02-13 17:54:02 Warning: Warning (4096): Object of class Cake\Console\ConsoleInputArgument could not be converted to string in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 185
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::out() - CORE/src/Console/Shell.php, line 696
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:54:50 Warning: Warning (4096): Object of class Cake\Console\ConsoleInputArgument could not be converted to string in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+implode - [internal], line ??
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 185
+Cake\Console\ConsoleIo::out() - CORE/src/Console/ConsoleIo.php, line 169
+Cake\Console\Shell::out() - CORE/src/Console/Shell.php, line 696
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 19
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:02 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:26 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:44 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 17:59:55 Error: [Error] Call to a member function first() on array in /opt/chell/src/Shell/Task/DrawCoursesTask.php on line 21
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): App\Shell\Task\DrawCoursesTask->main('123')
+#1 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#2 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#3 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#4 {main}
+
+
+2018-02-13 18:00:06 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:06 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:06 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:06 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:06 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:06 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:15 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:00:49 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::toArray() - CORE/src/Datasource/QueryTrait.php, line 304
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:01:12 Warning: Warning (2): extract() expects parameter 2 to be integer, string given in [/opt/chell/src/Shell/Task/DrawCoursesTask.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+extract - [internal], line ??
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:01 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:02:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:21 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_projects): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): _cake_model_ cache was unable to write 'default_projects' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 168
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1578
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1178
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 361
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): SplFileInfo::openFile(/opt/chell/tmp/cache/models/chell_cake_model_default_tags): failed to open stream: Permission denied in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 397]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 397
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 280
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-02-13 18:04:53 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tags' to Cake\Cache\Engine\FileEngine cache in [/opt/chell/vendor/cakephp/cakephp/src/Cache/Cache.php, line 289]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 289
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 532
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 211
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 443
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 405
+App\Model\Table\ProjectsTable::beforeFind() - APP/Model/Table/AutoContainTagsTrait.php, line 15
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 416
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 393
+Cake\ORM\Table::dispatchEvent() - CORE/src/Event/EventDispatcherTrait.php, line 110
+Cake\ORM\Query::triggerBeforeFind() - CORE/src/ORM/Query.php, line 1006
+Cake\ORM\Query::_execute() - CORE/src/ORM/Query.php, line 1032
+Cake\ORM\Query::_all() - CORE/src/Datasource/QueryTrait.php, line 287
+Cake\ORM\Query::all() - CORE/src/ORM/Query.php, line 987
+Cake\ORM\Query::_call() - CORE/src/Datasource/QueryTrait.php, line 469
+Cake\ORM\Query::__call() - CORE/src/ORM/Query.php, line 1202
+App\Shell\Task\DrawCoursesTask::main() - APP/Shell/Task/DrawCoursesTask.php, line 21
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 507
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 500
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 141
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-03-07 16:52:19 Error: [ParseError] syntax error, unexpected 'after' (T_STRING), expecting ',' or ')' in /opt/chell/config/Migrations/20180306222750_RegistrationDataHidden.php on line 17
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(297): Phinx\Migration\Manager->getMigrations()
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#12 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-04-30 22:44:52 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Database/Connection.php on line 176
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Database/Connection.php(117): Cake\Database\Connection->setDriver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(96): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /home/martin/Programmieren/portal/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 /home/martin/Programmieren/portal/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Create.php(153): Migrations\Command\Create->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /home/martin/Programmieren/portal/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Create->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /home/martin/Programmieren/portal/chell/vendor/cakephp/migrations/src/Command/Create.php(72): Migrations\Command\Create->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /home/martin/Programmieren/portal/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Create->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /home/martin/Programmieren/portal/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /home/martin/Programmieren/portal/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Create), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /home/martin/Programmieren/portal/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /home/martin/Programmieren/portal/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'create', 'RegistrationNot...')
+#14 /home/martin/Programmieren/portal/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /home/martin/Programmieren/portal/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#16 /home/martin/Programmieren/portal/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#17 {main}
+
+
+2018-04-30 22:49:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1101 BLOB, TEXT, GEOMETRY or JSON column 'registration_note' can't have a default value in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('ALTER TABLE `pr...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(422): Phinx\Db\Adapter\PdoAdapter->execute('ALTER TABLE `pr...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(513): Phinx\Db\Adapter\MysqlAdapter->addColumn(Object(Migrations\Table), Object(Phinx\Db\Table\Column))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(628): Migrations\CakeAdapter->addColumn(Object(Migrations\Table), Object(Phinx\Db\Table\Column))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(105): Phinx\Db\Table->update()
+#5 /opt/chell/config/Migrations/20180430204606_RegistrationNote.php(21): Migrations\Table->update()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): RegistrationNote->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(RegistrationNote), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(RegistrationNote), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', '20180430204606')
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-04-30 22:49:04 Warning: The connection is going to be closed but there is an active transaction.
+2018-04-30 22:49:04 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2018-09-27 14:21:07 Error: [RuntimeException] Unknown command `cake setup.maintenance_mode`. Run `cake --help` to get the list of valid commands. in /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 177
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'setup.maintenan...')
+#1 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-27 14:41:42 Error: [RuntimeException] Unknown command `cake upgrade`. Run `cake --help` to get the list of valid commands. in /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 177
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'upgrade')
+#1 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-11-07 09:44:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'wakeningcall_id' doesn't exist in table in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `w...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `w...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /opt/chell/config/Migrations/20181013151720_CreateWakeningCalls.php(41): Migrations\Table->create()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateWakeningCalls->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateWakeningCalls), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateWakeningCalls), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20181013151720)
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-11-07 09:44:27 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-07 09:44:27 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2018-11-07 09:45:38 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'wakeningcalls' already exists in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `w...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `w...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /opt/chell/config/Migrations/20181013151720_CreateWakeningCalls.php(25): Migrations\Table->create()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateWakeningCalls->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateWakeningCalls), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateWakeningCalls), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20181013151720)
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-11-07 09:45:38 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-07 09:45:38 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2018-11-13 14:24:19 Error: [PDOException] SQLSTATE[HY000]: General error: 1215 Cannot add foreign key constraint in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `w...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `w...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /opt/chell/config/Migrations/20181013151720_CreateWakeningCalls.php(46): Migrations\Table->create()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateWakeningCalls->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateWakeningCalls), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateWakeningCalls), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20181013151720)
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-11-13 14:24:19 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-13 14:24:19 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2018-11-30 08:36:15 Error: [RuntimeException] Unknown command `cake upgrade`. Run `cake --help` to get the list of valid commands. in /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 177
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(137): Cake\Console\CommandRunner->getShell(Object(Cake\Console\ConsoleIo), Object(Cake\Console\CommandCollection), 'upgrade')
+#1 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-11-30 09:19:34 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'wakening_calls' already exists in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `w...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `w...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /opt/chell/config/Migrations/20181013151720_CreateWakeningCalls.php(47): Migrations\Table->create()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateWakeningCalls->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateWakeningCalls), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateWakeningCalls), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20181013151720)
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-11-30 09:19:34 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-30 09:19:34 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2018-11-30 09:20:09 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'wakening_calls' already exists in /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 338
+Stack Trace:
+#0 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(338): PDO->exec('CREATE TABLE `w...')
+#1 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(306): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `w...')
+#2 /opt/chell/vendor/cakephp/migrations/src/CakeAdapter.php(444): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Migrations\Table))
+#3 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(609): Migrations\CakeAdapter->createTable(Object(Migrations\Table))
+#4 /opt/chell/vendor/cakephp/migrations/src/Table.php(89): Phinx\Db\Table->create()
+#5 /opt/chell/config/Migrations/20181013151720_CreateWakeningCalls.php(47): Migrations\Table->create()
+#6 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(122): CreateWakeningCalls->change()
+#7 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(366): Phinx\Migration\Manager\Environment->executeMigration(Object(CreateWakeningCalls), 'up')
+#8 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(342): Phinx\Migration\Manager->executeMigration('default', Object(CreateWakeningCalls), 'up')
+#9 /opt/chell/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20181013151720)
+#10 /opt/chell/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /opt/chell/vendor/cakephp/migrations/src/Command/Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /opt/chell/vendor/symfony/console/Command/Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(507): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#18 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#19 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#20 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#21 {main}
+
+
+2018-11-30 09:20:09 Warning: The connection is going to be closed but there is an active transaction.
+2018-11-30 09:20:09 Warning: Warning (2): fwrite(): supplied resource is not a valid stream resource in [/opt/chell/vendor/cakephp/cakephp/src/Console/ConsoleOutput.php, line 253]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+fwrite - [internal], line ??
+Cake\Console\ConsoleOutput::_write() - CORE/src/Console/ConsoleOutput.php, line 253
+Cake\Console\ConsoleOutput::write() - CORE/src/Console/ConsoleOutput.php, line 188
+Cake\Log\Engine\ConsoleLog::log() - CORE/src/Log/Engine/ConsoleLog.php, line 94
+Cake\Log\Log::write() - CORE/src/Log/Log.php, line 384
+Cake\Log\Log::warning() - CORE/src/Log/Log.php, line 469
+Cake\Database\Connection::__destruct() - CORE/src/Database/Connection.php, line 132
+[main] - [internal], line ??
+
+
+
+2019-05-01 14:23:33 Error: [Symfony\Component\Console\Exception\RuntimeException] Not enough arguments (missing: "name"). in /opt/chell/vendor/symfony/console/Input/Input.php on line 82
+Stack Trace:
+#0 /opt/chell/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->validate()
+#1 /opt/chell/vendor/symfony/console/Application.php(888): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /opt/chell/vendor/symfony/console/Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Create), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /opt/chell/vendor/symfony/console/Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'create')
+#6 /opt/chell/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#7 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#8 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#9 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2019-05-30 09:26:39 Error: [Cake\Database\Exception] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /opt/chell/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', '', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /opt/chell/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('', Array)
+#2 /opt/chell/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('')
+#3 /opt/chell/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#4 /opt/chell/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 /opt/chell/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\TemplateTask->main('')
+#7 /opt/chell/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#9 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#10 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#11 {main}
+
+
+2020-09-18 13:27:03 Error: [Error] Call to undefined method App\Application::addPlugin() in /opt/chell/src/Application.php on line 57
+Stack Trace:
+#0 /opt/chell/vendor/cakephp/cakephp/src/Console/CommandRunner.php(114): App\Application->bootstrap()
+#1 /opt/chell/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+

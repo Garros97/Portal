@@ -1,0 +1,11 @@
+services:
+    -
+        class: IdeHelper\PHPStan\AssociationTableMixinClassReflectionExtension
+        tags:
+            - phpstan.broker.methodsClassReflectionExtension
+            - phpstan.broker.propertiesClassReflectionExtension
+parameters:
+    autoload_files:
+        - %rootDir%/../../../tests/bootstrap.php
+    ignoreErrors:
+        - '#Call to an undefined method Cake\\ORM\\Association::getAlias\(\)#'

@@ -1,0 +1,55 @@
+This file lists some hacks (and other good ideas) used in Chell
+---------------------------------------------------------------
+* Some "binary" options have a type char(1) instead of bool in the database.
+  This allows us to use <select>s instead of checkboxes. (Currently User.sex)
+* A custom field iff. is required when the name ends with a star. This is quite
+  efficient as you probably would include a star anyway to notice the user. The
+  UI will also show an explanation for the star if a least one field is required.
+  This is documented in the Backend UI.
+* For dropdown custom fields, the value "---" will be flagged as invalid when the
+  field is required. This is documented in the Backend-UI (but only in custom-
+  field/edit)
+* There are hidden pages that are not linked from anywhere. Currently the pages are:
+    - /pages/system-check
+* Changing the username is only disallowed in the action UsersController:edit. There
+  might be a way for users to circumvent this.
+* You may not use the "login-as"-feature to impersonate someone who has more rights
+  than you. This is considered safe. There is a error message if you try.
+* The "login-as"-feature assumes the old UID in the session is reliable. If someone
+  manages to manipulate the session, he will be able to "revert" to anybody. This is
+  not considered a problem, as the login system is then broken, anyway. (Note that the
+  session is only stored on the server, not in a cookie!)
+* You can be in more than one group iff. you are a teacher.
+* There is a schema file called "geonames.sql" which contains a table needed for rendering
+  the user map. You must import this to a database and give the user the SELECT right for
+  this. This table can live in it's own database, the name of this database can the con-
+  figured. It must be accessible with the same connection as we need to join it.
+* It's currently impossible to remove a rating (aka revert it to "unrated")
+* Rights exists in two forms: General and subresource-constrained. I.e. there might be
+  rights EDIT_THINGS and EDIT_THINGS/123. The first form will allow you to edit all things
+  but the second only things with the ID 123. This ID is called the "subresource id".
+  Rights in the $rights array of the controller can be given in the form EDIT_THINGS/{id},
+  where {id} can be one of the following:
+    - A single ID, which is then required (or, as always, the general form of the right)
+    - "any", which means that access to any subresource is sufficient
+    - $x, with x being a positive integer, which means that the required id is the parameter
+      at the specified position ($0 means that the first parameter of the action indicated the id)
+    - ?, in this case CakeAuthComponent will call getRequiredSubresourceIds  on the current
+      controller to determine the subresource id of the current request. This function must return
+      a single ID, an array of IDs, "any" or false, in this case the request in denied.
+* The admin homepage will display the content of a file called "motd.txt" in the root
+  directory, if it exists. You can symlink this to CHANGELOG, or regenerate it from a
+  git hook if you like.
+* The "rights" table contains all existing rights and is populated on installation. It's not possible
+  or necessary to change it via the Admin-Interface.
+* The system to notify users about changed custom fields is, in theory, quite powerful. Whenever a
+  custom field is changed, it is checked, if the project contains a tag with the name "notifyChange_[NAME]",
+  like "notifyChange_Bezahlt", for a field named "Bezahlt". The value of the tag is a comma separated list
+  of colon separated value-template pairs, like "Ja:got_payment,Teilweise:partial_payment". When the
+  value of the custom field is changed to a value found in the list a mail with with associated template
+  is send to the user. So, for the example above a mail with the template "got_payment" would be send
+  to the user if the value was changed to "Ja", and a mail with the template "partial_payment" would be
+  send if the value was changed to "Teilweise". No mail is send when the value is changed to any other
+  value (like "Nein"). The mail templates are found in Template/Email/{html/text}/customFieldChanged
+  In reality there is no user interface for this functionality, there are just checkboxes for the most
+  common cases. The full functionality is available when the tags are added manually.

@@ -1,0 +1,43 @@
+Dies war/ist eine Idee, wie man die alten Daten importieren kann. Das ganze ist nicht so einfach,
+da sich doch einiges an der DB-Struktur geändert hat. Wir haben uns darauf geeinigt, nur die Benutzer
+zu übernhemen.
+
+
+Import Data from old portal to chell
+------------------------------------
+- Backup everything
+- Do this on a copy from the old data (it will be altered!)
+
+- Fix duplicate usernames:
+
+set @cnt = 0;
+update portal_import.user
+set username = concat("DuplicateUser",(@cnt := @cnt+1))
+where username in (select * from (select username from user group by username having count(*) > 1) as mysql_is_silly)
+
+- Import data
+
+INSERT INTO `projects`(`id`, `name`, `urlname`, `register_start`, `register_end`, `visible`, `logo_name`, `short_description`, `long_description`, `confirmation_mail_template`, `min_group_size`, `max_group_size`, `allow_multireg`, `multireg_infotext`) SELECT id,name,simplename,from_unixtime(registersince), from_unixtime(registeruntil),visible,substr(logo,1,25),substr(description,1,255),infotext,substr(emailtemplate,1,25),mingroupsize,maxgroupsize,0,"" FROM portal_import.projects WHERE registersince > 1325376000
+
+
+INSERT INTO chell.`users`(`id`, `username`, `email`, `password`, `first_name`, `last_name`, `sex`, `street`, `house_number`, `postal_code`, `city`, `birthday`, `created`, `modified`, `last_login`)
+select user.id, user.username,user.email,user.password_new,substr(user.forename,1,30),user.name,(case user.title when "Herr" then "m" when "Frau" then "f" else "x" end ),user.street,user.housenumber, user.postal,user.city,from_unixtime(user.birthdate),from_unixtime(user.registerdate),from_unixtime(user.lastmodified),null from portal_import.user 
+join projects_user on(projects_user.uid = user.id) join projects on(projects.id = projects_user.pid) 
+where projects.registersince > 1325376000
+
+
+INSERT INTO `courses`(`id`, `project_id`, `name`, `description`, `sort`, `max_users`, `waiting_list_length`, `uploads_allowed`, `uploads_start`, `uploads_end`) select id,project,name,description,substr(`order`,1,10),maxusers,(case hardmaxusers when 0 then 0 else hardmaxusers-maxusers end),uploadsenabled,from_unixtime(uploadsince),from_unixtime(uploaduntil) from portal_import.courses where project in (select id from portal_import.projects where registersince > 1325376000)
+
+INSERT INTO chell.registrations (id, project_id, user_id, created) select id, pid, uid,from_unixtime(registerdate) from portal_import.projects_user where pid in (select id from portal_import.projects where registersince > 1325376000)
+
+INSERT INTO chell.courses_registrations (course_id, registration_id, created)
+select cid, (select projects_user.id from projects_user join projects on (projects.id = projects_user.pid) join courses on (courses.project = projects.id) where courses.id = cid and projects_user.uid = courses_user.uid), from_unixtime(created) from portal_import.courses_user
+where cid in (select courses.id from courses join projects on (projects.id = courses.project) where projects.registersince > 1325376000)
+
+
+- Fix Autoincrement_next, if neccessary
+- Teacher tags
+
+fehlt: Gruppen, Uploads, Bewertungen
+
+

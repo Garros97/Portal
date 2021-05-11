@@ -1,0 +1,403 @@
+/* Sticky footer styles */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+#wrap {
+    padding-bottom: 20px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    border-top: solid 1px #ddd;
+}
+
+#footer .container {
+    max-width: 680px;
+    padding: 0 15px;
+    width: auto;
+}
+
+#footer .container .text-muted {
+    margin: 20px 0;
+}
+
+/* Quicksearch  */
+#quicksearch-box {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+@media (min-width: 768px) {
+    .navbar .focused.twitter-typeahead input[type=text] {
+        width: 20em; /* TODO: Animate */
+    }
+}
+
+.list-group.qs-suggestions {
+    width: 100%;
+    min-width: 160px;
+}
+
+.list-group.qs-suggestions .list-group-item {
+    padding: 5px 10px;
+}
+
+.list-group.qs-suggestions .suggestion-header {
+    font-weight: bold;
+}
+
+.list-group.qs-suggestions .mark {
+    padding: 0.2em 0;
+}
+
+.list-group.qs-suggestions .active .mark {
+    background-color: transparent;
+}
+
+.list-group.qs-suggestions .badge .mark {
+    background-color: transparent;
+}
+
+.twitter-typeahead {
+    width: 100%;
+}
+
+.jumbotron .qs-suggestions .list-group-item-text {
+    font-size: 14px; /* reset text size for search in jumbotron */
+}
+/* TODO: Fix rounded corners in the middle of the list! */
+
+/* quicksearch for users */
+.qs-box {
+    padding: 0;
+    margin-bottom: 6px;
+}
+.qs-box input[type="text"]{
+    height: 2.5em;
+    padding: 1em 0.5em;
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* chevrons for collapsible panels */
+.panel-group .panel-heading h4 a:after, .panel.show-chevron .panel-heading h4 a:after {
+    content: '\e260';
+    margin-left: 5px;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.panel-group .panel-heading h4 a[aria-expanded=false]:after, .panel.show-chevron .panel-heading h4 a[aria-expanded=false]:after {
+    content: '\e259';
+}
+
+/* custom progress bar styles */
+.progress.progress-text-centered {
+    position: relative;
+}
+
+.progress.progress-text-centered span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+}
+
+.table .progress {
+    margin-bottom: 0;
+}
+
+.progress-bar-male {
+    background-color: #69c !important;
+}
+
+.progress-bar-female {
+    background-color: #9fc777 !important;
+}
+
+/* Affix'ed sidebar */
+#sidebar.affix {
+    top: 0;
+}
+
+@media (max-width: 992px) {
+    #sidebar.affix {
+        position: static;
+    }
+}
+
+/* custom dropdown entries */
+.dropdown-menu > li > .dropdown-entry {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.dropdown-menu > li > .dropdown-entry:hover,
+.dropdown-menu > li > .dropdown-entry:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+/* Misc. styles */
+.animate-transition {
+    transition: all .2s linear;
+}
+
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.homepage-img img {
+    max-height: 41px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#content:focus { /* Bugfix as per bootstrap doc */
+    outline: none;
+}
+
+.tags a:hover {
+    text-decoration: none;
+}
+
+.tags a:hover .label {
+    background-color: #286090;
+}
+
+.panel-primary .panel-heading span.text-muted {
+    color: #ccc;
+}
+
+.panel-heading a.link-no-style {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.ratings-table tbody a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.ratings-table tfoot tr:first-child td {
+    padding-top: 15px;
+}
+
+.export-dropdown {
+    min-width: 240px;
+}
+
+.export-dropdown .btn-group {
+    position: absolute;
+    right: 20px;
+}
+
+#exgroups-overview-table td[data-content="1"] {
+    background-color: #c9302c; /* danger color */
+}
+
+form button.btn-primary {
+    margin-bottom: 1em;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+.table-separator-waiting-list {
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.table-separator-waiting-list td {
+    padding: 4px !important;
+    background-color: #337ab7; /* primary color */
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+
+p.course-selector-fixup + p {
+    margin: -10px 0 10px;
+}
+
+h2.edit-page-header {
+    margin-bottom: 20px;
+}
+
+/* Useless fine tuning of registration count */
+#course-table .registration-count {
+    word-spacing: -0.1em;
+    white-space: nowrap;
+    display: inline-block;
+}
+#course-table .registration-count-regCount {
+    font-weight: 600;
+}
+
+/* Slightly larger Brand Image */
+
+a.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a.navbar-brand img {
+    height: 100%;
+}
+
+.text_img {
+    vertical-align: inherit;
+}
+
+.cf-section {
+    margin-top: 2em;
+}
+
+#search-table th {
+    text-align: center;
+}
+
+.ovcontainer,   .scontainer td {
+    text-align: center;
+}
+
+.u_row {
+    background-color: dimgray;
+    color: white;
+}
+
+#project-selector-label {
+    margin: 0 1em;
+}
+
+/*
+.col-lg-2 {
+    margin: auto 0.5vw;
+}
+
+#admin-overview-tiles a {
+    margin: 0 auto;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+*/
+
+/*
+#admin-overview-tiles figure {
+    width: 10vw;
+    height: 10vw;
+    margin: 1em 0;
+    background: #42bd41;
+    padding: 6px;
+    padding-top: 16px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+}
+*/
+
+/*
+#admin-overview-tiles figure figcaption {
+    text-align: center;
+    margin-top: 4px;
+}
+*/
+
+/*
+#admin-overview-tiles i {
+    width: 6vw;
+    font-size: 6vw;
+    margin: 0 auto;
+    display: block;
+}
+*/
+
+/*
+#admin-overview-tiles #tiles-header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 2vw;
+}
+
+.cards {
+    max-width: 90vw;
+    margin: 0 auto 30px;
+}
+
+figure {
+    position: relative;
+    background: #42bd41;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 2em;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+i {
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.3vw;
+    margin-bottom: 0.1vw;
+    max-font-size: 14vw;
+    max-width: 14vw;
+    min-width: 80px;
+    min-height: 80px;
+    min-font-size: 80px;
+}
+
+
+
+.article-title {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2vw;
+    min-font-size: 20px;
+}
+*/

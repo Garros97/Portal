@@ -1,0 +1,41 @@
+* Anmelden bei Projekten und Kurse
+* Klassenanmeldung
+* Statistiken
+* Projekte
+* Kurse
+* Benutzer
+* Login
+* Benutzerstammdaten
+- Benutzerschuldaten
+- Weckrufe (darf aber nicht komplett weg, eventuell ausgliedern? Vielleicht doch wieder rein, Login mitbenutzen)
+* Bewertung
+* Admin-Bereich
+* Schnellsuche (!!!)
+* Gruppen
+* Benutzer in andere Gruppen verschieben
+* Datei-Abgaben
+* Ausschlussgruppen
+* Berichte
+* QIS-Import
++ Tags
+* Rechte
+- 1CRA (mit normaler Registrierung zusammenführen (soltle ja aktuell schon so sein...))
+* Zusatzfelder bei der Anmeldung
++ Hilfe
+- Fahrtkostenanträge
+- LJL-Buchungen
++ Bezahlverwaltung
+- Textinhalte
+* Gruppenliste
+- Aktiverungsmails (dafür doppeltes Feld für E-Mail)
+- Kalender
+- Doppelte Benutzer finden
+* Leute, die ihr Passwort nicht ändern können
+* Postbox
+- "Nachricht senden"-Funktion
++ Löschen von allen möglichen Sachen
+* Filter
+* Imply-Courses
+* Bewertungen zunächt nicht sichtbar machen
+* Neuanmeldung (1CRA)
++ Übersicht über alle Tags im Portal (Automatisch generiert? Pre-Commit-Hook?)
